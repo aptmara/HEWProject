@@ -23,7 +23,7 @@
 2.  以下のコマンドを実行して、GitHubからリポジトリをクローン（ダウンロード）します。
 
     ```bash
-     git clone [https://github.com/aptmara/HEWProject.git](https://github.com/aptmara/HEWProject.git)
+     git clone[https://github.com/aptmara/HEWProject.git](https://github.com/aptmara/HEWProject.git)
     ```
 
 ## 3. プロジェクトのビルド
