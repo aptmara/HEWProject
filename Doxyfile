@@ -1,0 +1,30 @@
+# Doxyfile の主要な設定項目
+
+# プロジェクト名
+PROJECT_NAME           = "MyGameProject"
+
+# ドキュメントの出力先ディレクトリ
+OUTPUT_DIRECTORY       = docs
+
+# ソースコードの入力元ディレクトリ
+INPUT                  = ./src
+
+# サブディレクトリも再帰的に探索する
+RECURSIVE              = YES
+
+# 検索するファイルのパターン
+FILE_PATTERNS          = *.h *.cpp
+
+# コメントが無くてもドキュメントを生成する
+EXTRACT_ALL            = YES
+
+# プライベートメンバもドキュメントに含める
+EXTRACT_PRIVATE        = YES
+
+# 静的メンバもドキュメントに含める
+EXTRACT_STATIC         = YES
+
+# Graphviz (dot) を使ってグラフを生成する
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES

@@ -1,0 +1,40 @@
+# .clang-format
+
+# C++コードとして整形
+Language: Cpp
+
+# Microsoftのスタイルをベースに、細かくルールを上書きする
+BasedOnStyle: Microsoft
+
+# インデントはタブを使用
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+
+# 1行の最大文字数
+ColumnLimit: 80
+
+# ポインタの * や & は型名の隣に配置 (例: int* p)
+PointerAlignment: Left
+
+# 関数呼び出しの引数が長すぎる場合、各引数で改行する
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# 波括弧{}の改行スタイル
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+
+# if/for/whileの後には必ず波括弧を付ける (省略しない)
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
