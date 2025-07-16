@@ -22,9 +22,9 @@
 1.  任意の作業ディレクトリでコマンドプロンプトまたはGit Bashを開きます。
 2.  以下のコマンドを実行して、GitHubからリポジトリをクローン（ダウンロード）します。
 
-    ```bash
-     git clone[https://github.com/aptmara/HEWProject.git](https://github.com/aptmara/HEWProject.git)
-    ```
+```bash
+git clone https://github.com/aptmara/HEWProject.git
+```
 
 ## 3. プロジェクトのビルド
 
